@@ -49,15 +49,17 @@ With some minor adjustments, our model can describe many physical phenomena. A s
 8. **Crystallization.** The transition from a liquid to a crystalline solid is very similar to galaxy formation.
 9. **Biology/Biophysics.** Many biological systems exhibit chirality/handedness at various scales. This preference for one handedness over another can be described by our model.
 
-## Problem 1 (20 points)
+## Complete the following questions in the attached `Jupyter Notebook`. Use code cells to complete the plotting and any other computational work. Use the `Markdown` cells to answer the conceptual questions. Use `Latex` for equations.
 
-1. Create an interactive plot with matplotlib and ipywidgets to show what happens when $K$ becomes negative. Label your axes and make your plot clear and aesthetically pleasing. Your finished plot should compare $K>0$ and $K<0$ to illustrate your findings.
+### Problem 1 (20 points)
+
+1. Create an interactive plot with `matplotlib` and `ipywidgets` to show what happens when $K$ becomes negative. Label your axes and make your plot clear and aesthetically pleasing. Your finished plot should compare $K>0$ and $K<0$ to illustrate your findings.
 
 2. With the insights drawn from your plot, find an expression for the amplitude of $Q$ as a function of $K$ and $D$. 
 
 3. Assume that the effective mass of the coordinate $Q$ is $m$. Find an expression for the frequency of the oscillator for $K>0$ and $K<0$.
 
-## Problem 2 (20 points)
+### Problem 2 (20 points)
 
 Let's expand the model to include two degrees of freedom.
 
@@ -73,7 +75,7 @@ Take all coefficients to be positive to start.
 
 4. What changes above if $C$ is negative?
 
-## Problem 3 (10 points)
+### Problem 3 (10 points)
 
 1. Use the symmetry table to explain which degrees of freedom ($N$, $P$, $G$, and $C$) can be described by **Problem 1**.
 2. Use the symmetry table to explain which degrees of freedom ($N$, $P$, $G$, and $C$) can be coupled to each other as described in the model of **Problem 2**.
