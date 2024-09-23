@@ -75,5 +75,5 @@ Take all coefficients to be positive to start.
 
 1. Use the symmetry table to explain which degrees of freedom ($N$, $P$, $G$, and $C$) can be described by **Problem 1**.
 2. Use the symmetry table to explain which degrees of freedom ($N$, $P$, $G$, and $C$) can be coupled to each other as described in the model of **Problem 2**.
-3. Is there a way to have a third-order term $Q_1 Q_2 Q_3$? Which degrees of freedom allow for this and why?
+3. Is there a way to have a third-order term $Q_1 Q_2 Q_3$? If so, which degrees of freedom allow for this and why? It not, why not?
 
