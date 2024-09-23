@@ -9,6 +9,8 @@ In class, we motivated why a spring-mass system, or a harmonic oscillator, is so
 
 In this midterm exam, you will explore a (nonlinear) oscillator model, in, very likely, a different way than you have in the past; when the spring constant becomes negative. When this happens we will need to include higher-order terms in our description of the energy, otherwise the mass will accelerate off to infinity.
 
+This model is a model for a broad class of phase transitions, and is used in the [***Landau theory of phase transitions***](https://en.wikipedia.org/wiki/Landau_theory).
+
 Let's start by defining the model.
 
 ## The basic model
