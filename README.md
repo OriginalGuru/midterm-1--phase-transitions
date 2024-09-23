@@ -7,7 +7,7 @@ In class, we motivated why a spring-mass system, or a harmonic oscillator, is so
 3. wave phenomena;
 4. and, the behavior of systems near equilibrium.
 
-In this midterm exam, you will explore a (nonlinear) oscillator model, in, very likely, a different way that you have in the past; when the spring-constant becomes negative. When this happens we will need to include higher order terms in opur description of the energy, otherwise the mass will accelerate off to infinity.
+In this midterm exam, you will explore a (nonlinear) oscillator model, in, very likely, a different way than you have in the past; when the spring constant becomes negative. When this happens we will need to include higher-order terms in our description of the energy, otherwise the mass will accelerate off to infinity.
 
 Let's start by defining the model.
 
@@ -47,5 +47,33 @@ With some minor adjustments, our model can describe many physical phenomena. A s
 8. **Crystallization.** The transition from a liquid to a crystalline solid is very similar to galaxy formation.
 9. **Biology/Biophysics.** Many biological systems exhibit chirality/handedness at various scales. This preference for one handedness over another can be described by our model.
 
+## Problem 1 (20 points)
 
+1. Create an interactive plot with matplotlib and ipywidgets to show what happens when $K$ becomes negative. Label your axes and make your plot clear and aesthetically pleasing. Your finished plot should compare $K>0$ and $K<0$ to illustrate your findings.
+
+2. With the insights drawn from your plot, find an expression for the amplitude of $Q$ as a function of $K$ and $D$. 
+
+3. Assume that the effective mass of the coordinate $Q$ is $m$. Find an expression for the frequency of the oscillator for $K>0$ and $K<0$.
+
+## Problem 2 (20 points)
+
+Let's expand the model to include two degrees of freedom.
+
+$$ U = \frac{1}{2} K_1 Q_1^2 + \frac{1}{2} K_2 Q_2^2 + C Q_1^2 Q_2 + \frac{1}{4} D_1 Q_1^4 + \frac{1}{4} D_2 Q_2^4 + \frac{1}{2} D_{12} Q_1^2 Q_2^2 $$
+
+Take all coefficients to be positive to start.
+
+1. Create an interactive contour plot of the energy. Label your axes and make your plot clear and aesthetically pleasing. Explore what happens when ***either*** $K_1$ or $K_2$ becomes negative.
+
+2. When $K_1$ becomes negative what happens to $Q_1$, and what happens to $Q_2$. Explain.
+
+3. When $K_2$ becomes negative what happens to $Q_1$, and what happens to $Q_2$. Explain.
+
+4. What changes above if $C$ is negative?
+
+## Problem 3 (10 points)
+
+1. Use the symmetry table to explain which degrees of freedom ($N$, $P$, $G$, and $C$) can be described by **Problem 1**.
+2. Use the symmetry table to explain which degrees of freedom ($N$, $P$, $G$, and $C$) can be coupled to each other as described in the model of **Problem 2**.
+3. Is there a way to have a third-order term $Q_1 Q_2 Q_3$? Which degrees of freedom allow for this and why?
 
