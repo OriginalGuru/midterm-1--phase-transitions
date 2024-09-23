@@ -22,8 +22,8 @@ where $D>0$ and $K$ can be either positive, zero, or negative.
 The model has broad implications in the study of physical phenomena which can be connected to the symmetry table we derived in class. As a reminder, here is that table:
 
 |               |        | Identity  | Vertical Mirror/Inversion | Horizontal Mirror | 180-degree Rotation |                         |
-| Object        | Symbol | $E$       | $m_z$                    | $m_y$             | $C_{2y}$             | Example                 |
 |---------------|--------|-----------|--------------------------|-------------------|----------------------|-------------------------|
+| Object        | Symbol | $E$       | $m_z$                    | $m_y$             | $C_{2y}$             | Example                 |
 | Scalar        | $Q_1$  | 1         | 1                        | 1                 | 1                    | $\vec{c} \cdot \vec{c}$  |
 | Polar Vector  | $Q_2$  | 1         | -1                       | 1                 | -1                   | $\vec{c}$               |
 | Axial Vector  | $Q_3$  | 1         | 1                        | -1                | -1                   | $\vec{a} \times \vec{b}$ |
